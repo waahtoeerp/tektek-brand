@@ -1,0 +1,44 @@
+{
+  "_about": "The one file to edit when the brand changes. Run `python3 build.py` afterwards to regenerate the logo, tokens, icons and preview.",
+  "name": "TEK TEK OY",
+  "colors": {
+    "navy": "#0B2A44",
+    "blue": "#2F80ED",
+    "coral": "#FF6B4D",
+    "yellow": "#FDD34E",
+    "green": "#2DA36F",
+    "pink": "#F7B6CB",
+    "cream": "#F5EFE4"
+  },
+  "roles": {
+    "_about": "Which colour plays which part. Use the colour names above.",
+    "ink": "navy",
+    "background": "cream",
+    "accent": "blue",
+    "highlight": "yellow",
+    "success": "green",
+    "warm": "coral",
+    "soft": "pink"
+  },
+  "fonts": {
+    "_about": "Logo letters are converted to outlines from the font file, so the logo looks the same on any computer.",
+    "logo_file": "fonts/ArchivoBlack-Regular.ttf",
+    "css_family": "'Archivo Black', 'Arial Black', sans-serif",
+    "body_family": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+  },
+  "logo": {
+    "_about": "The main logo is traced from the brand sketch by trace_logo.py. Its colour comes from roles.ink. To change the logo, redraw it and re-run trace_logo.py.",
+    "source": "logo/src/logo-traced.svg"
+  },
+  "tagline": {
+    "_about": "Small letter-spaced lines under the logo.",
+    "size": 52,
+    "tracking": 14,
+    "padding": 20,
+    "gap": 28,
+    "lines": [
+      "GOOD COFFEE",
+      "BETTER CODE"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tektek brand preview</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+  body { margin: 0; padding: 32px; background: var(--tektek-background); color: var(--tektek-ink);
+         font-family: var(--tektek-font-body); }
+  h2 { font-family: var(--tektek-font-display); font-size: 18px; letter-spacing: 0.04em; margin: 40px 0 12px; }
+  .row { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; }
+  .swatch { display: flex; gap: 10px; align-items: center; width: 180px; }
+  .dot { width: 56px; height: 56px; border-radius: 50%; flex: none; box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15); }
+  .panel { padding: 24px; border-radius: 12px; }
+  figure { margin: 0; text-align: center; }
+  figcaption { font-size: 13px; }
+  code { font-size: 13px; }
+</style>
+</head>
+<body>
+<h1 style="font-family: var(--tektek-font-display); font-size: 28px; margin: 0;">TEK TEK OY</h1>
+
+<h2>Logo</h2>
+<div class="row">
+  <div class="panel"><img src="logo/tektek-logo.svg" alt="TEK TEK OY logo" style="height: 260px"></div>
+  <div class="panel" style="background: var(--tektek-ink)"><img src="logo/tektek-logo-reverse.svg" alt="TEK TEK OY logo reversed" style="height: 260px"></div>
+</div>
+
+<h2>Tagline</h2>
+<img src="logo/tektek-tagline.svg" alt="Tagline" style="height: 140px">
+
+<h2>Colours</h2>
+<div class="row"><div class="swatch"><div class="dot" style="background:#0B2A44"></div><div><strong>navy</strong><br><code>#0B2A44</code></div></div>
+<div class="swatch"><div class="dot" style="background:#2F80ED"></div><div><strong>blue</strong><br><code>#2F80ED</code></div></div>
+<div class="swatch"><div class="dot" style="background:#FF6B4D"></div><div><strong>coral</strong><br><code>#FF6B4D</code></div></div>
+<div class="swatch"><div class="dot" style="background:#FDD34E"></div><div><strong>yellow</strong><br><code>#FDD34E</code></div></div>
+<div class="swatch"><div class="dot" style="background:#2DA36F"></div><div><strong>green</strong><br><code>#2DA36F</code></div></div>
+<div class="swatch"><div class="dot" style="background:#F7B6CB"></div><div><strong>pink</strong><br><code>#F7B6CB</code></div></div>
+<div class="swatch"><div class="dot" style="background:#F5EFE4"></div><div><strong>cream</strong><br><code>#F5EFE4</code></div></div></div>
+
+<h2>Icons</h2>
+<div class="row"><figure><img src="icons/bolt.svg" width="48" height="48" alt="bolt"><figcaption>bolt</figcaption></figure>
+<figure><img src="icons/coffee.svg" width="48" height="48" alt="coffee"><figcaption>coffee</figcaption></figure>
+<figure><img src="icons/code.svg" width="48" height="48" alt="code"><figcaption>code</figcaption></figure></div>
+
+<h2>Typography</h2>
+<p style="font-family: var(--tektek-font-display); font-size: 40px; margin: 0;">TEK TEK OY</p>
+<p style="font-family: var(--tektek-font-body); font-size: 18px;">Body text uses the system sans-serif font.</p>
+
+<h2>Roles</h2>
+<ul><li><code>ink</code> = navy</li>
+<li><code>background</code> = cream</li>
+<li><code>accent</code> = blue</li>
+<li><code>highlight</code> = yellow</li>
+<li><code>success</code> = green</li>
+<li><code>warm</code> = coral</li>
+<li><code>soft</code> = pink</li></ul>
+</body>
+</html>
